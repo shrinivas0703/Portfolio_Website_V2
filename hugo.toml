@@ -1,6 +1,6 @@
-baseURL = "https://www.adrianmoreno.info"
+baseURL = "https://raditian-hugo.radity.com/"
 languageCode = "en-us"
-theme = "adritian-free-hugo-theme"
+theme = "raditian-free-hugo-theme"
 
 # Plugins
 [params.plugins]
@@ -36,14 +36,10 @@ theme = "adritian-free-hugo-theme"
   weight = 3
 
   [[menu.header]]
-  name = "Blog"
-  URL = "/blog"
-  weight = 4
-
-  [[menu.header]]
   name = "Contact"
   URL = "#contact"
-  weight = 5
+  weight = 4
+
 
   [[menu.footer]]
   name = "About"
@@ -65,21 +61,14 @@ theme = "adritian-free-hugo-theme"
 
   sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
 
-  homepageExperienceCount = 6
+  googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
-  [params.google_analytics]
-      code = "UA-XXXXX-Y"
-      enabled = false
-  [params.google_tag_manager]
-      code = "GTM-XXXXX"
-      enabled = false
-  
   [params.logo]
-    text1 = "Cool"
-    text2 = "Name"
+    text1 = "Shrinivas V."
+
 
   [params.footer]
-      copyright = "© Adritian. Free Hugo theme by Adrián Moreno Peña."
+      copyright = "© Raditian. All rights reserved."
       [params.footer.radity_logo]
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"

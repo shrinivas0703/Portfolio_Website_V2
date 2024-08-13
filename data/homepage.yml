@@ -1,52 +1,37 @@
 # showcase
 showcase:
   enable: true
-  title: "I like kids"
-  subtitle: "This is my title"
+  title: >
+    Hello, I am Shrinivas Venkatesan
+  subtitle: "MS in Computer Science"
   description: >
-    This is a good place to start with an introduction about yourself. Maybe a mention to the place <a target='_blank' href='https://www.adrianmoreno.info/'>where you work</a>. You can also mention where you live, your background and what's the purpose of the site. <br>You can download this theme from <a target='_blank' href='https://github.com/zetxek/adritian-free-hugo-theme'>github</a>, and see it live <a target='_blank' href="https://adritian-demo.vercel.app/">as a demo site</a> or <a target='_blank' href="https://www.adrianmoreno.info">a real one</a>.<br>You can find this content to edit in the theme.yaml file.
+    I am currently a first-year Master's student in Computer Science at Purdue University. I have experience with frontend and backend software development. <br/>  <br/>
+    With three prior internship experiences at Altimetrik, ZF, and Exelon, I have gained exposure to a wide-range of machine learning, computer vision, and API tools,
+    ensuring that I am able to make meaningful contributions in a workplace setting.
   image:
-    x: "images/showcase/showcase.png"
-    _2x: "images/showcase/showcase@2x.png"
+    alt: "Profile Picture of Shrinivas Venkatesan"
+    x: "images/showcase/me.png"
+    _2x: "images/showcase/me@2x.png"
   imageMobile:
     x: "images/showcase/showcase-mobile.jpg"
 
   button:
     icon: "icon-mail-fill"
     btnText: "Contact"
-    URL: "https://www.adrianmoreno.info/"
+    URL: "#contact"
 
   socialLinks:
     - icon: "linkedin"
-      URL: "https://www.linkedin.com/in/adrianmoreno/"
+      URL: "https://www.linkedin.com/in/shrinivas-venkatesan/"
 
     - icon: "github"
-      URL: "https://github.com/zetxek"
-
-    - icon: "twitter"
-      URL: "https://twitter.com/zetxek"
-
-    - icon: "dribbble"
-      URL: "#"
-
-    - icon: "behance"
-      URL: "#"
-
-    - icon: "youtube"
-      URL: "#"
+      URL: "https://github.com/shrinivas0703"
 
     - icon: "instagram"
-      URL: "https://www.instagram.com/zetxek/"
+      URL: "https://www.instagram.com/shrinivas_v/"
 
     - icon: "facebook"
-      URL: "https://www.facebook.com/zetxek/"
-
-    - icon: "codepen"
-      URL: "#"
-
-    - icon: "yelp"
-      URL: "https://www.yelp.com/"
-
+      URL: "https://www.facebook.com/shrinivas.venkatesan"
 # about
 about:
   enable: true
